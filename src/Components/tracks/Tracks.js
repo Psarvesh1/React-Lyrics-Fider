@@ -40,7 +40,7 @@ class Tracks extends Component{
                         return (
                             <>
                             <h3 className = "text-center mb-4">{heading}</h3>
-                            <div className = "row bg-light">
+                            <div className = "row bg-light" style = {{paddingTop: '20px'}}>
                                 {track_list.map(item => (
                                     <Track key={item.track.track_id} track = {item.track}/>
                                 ))}

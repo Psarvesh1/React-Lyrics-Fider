@@ -1,0 +1,15 @@
+.footer{
+    text-align: center;
+    margin-top: 5px;
+    padding-bottom: -5px;
+}
+.footer p {
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.footer a{
+    color: black;
+}
+.footer a:hover{
+    cursor: pointer;
+}

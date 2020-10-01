@@ -8,7 +8,7 @@ class Search extends Component {
 
     findTrack = ( dispatch, e) =>{
         e.preventDefault();
-        axios.get(`http://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1/track.search?q_track=${this.state.trackTitle}&page_size=10&page=1&s_track_rating=desc&apikey="Your api key goes here"`)
+        axios.get(`http://cors-anywhere.herokuapp.com/https://api.musixmatch.com/ws/1.1/track.search?q_track=${this.state.trackTitle}&page_size=10&page=1&s_track_rating=desc&apikey=${process.env.REACT_APP_MM_KEY}`)
         .then(res => {
             
             dispatch({
@@ -31,7 +31,7 @@ class Search extends Component {
                     return(
                         <div className = "card card-body mb-4 p-4">
                             <h1 className = "display-4 text-center">
-                                <i className = "fa fa-music"></i> Search for A Song
+                                <i className = "fa fa-music"></i> Search For A Song
                             </h1>
                             <p className = "lead text-center">Get the lyrics for any song</p>
                             <form onSubmit = {this.findTrack.bind(this, dispatch)}>
