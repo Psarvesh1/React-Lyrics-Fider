@@ -1,4 +1,4 @@
-#React-Lyrics-Fider
+# React-Lyrics-Fider
 
 A Lyrics Finder app built with React.js and Musixmatch API.
 
