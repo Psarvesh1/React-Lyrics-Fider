@@ -1,5 +1,7 @@
 A Lyrics Finder app built with React.js and Musixmatch API.
 
+Live Demo : - https://lyrics-finder03.netlify.app/
+
 Installation : -
 1. git clone https://github.com/Psarvesh1/React-Lyrics-Fider.git
 2. npm install
