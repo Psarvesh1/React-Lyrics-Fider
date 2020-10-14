@@ -1,4 +1,4 @@
-A Lyrics Finder app built with React.js and Musixmatch API.
+#A Lyrics Finder app built with React.js and Musixmatch API.
 
 Live Demo : - https://lyrics-finder03.netlify.app/
 
