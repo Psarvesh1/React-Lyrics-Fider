@@ -12,7 +12,7 @@
     "@fortawesome/react-fontawesome": "^0.1.11",
     "axios": "^0.19.0",
     "lodash": "^4.17.19",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-moment": "^0.9.2",
